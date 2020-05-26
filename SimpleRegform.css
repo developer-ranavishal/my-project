@@ -1,0 +1,64 @@
+body
+{
+	
+	background: grey;
+	background-image:url('./abstract.jpg');
+	
+}
+h1
+{
+
+	text-align: center;
+	text-decoration: underline;
+	font-family: monospace;
+
+}
+input[type="text"],input[type="password"],input[type="number"]
+{
+	padding: 10px;
+      
+	color: hotpink;
+}
+input[type="text"]:hover,input[type="password"]:hover,input[type="number"]:hover
+{
+      
+	background:yellow;
+}
+input[type="email"]
+{
+	padding: 10px;
+      
+	color: hotpink;
+}
+input[type="email"]:hover
+{
+	background: black;
+}
+
+
+td
+{
+    padding: 7px;
+}
+select
+{
+	padding: 10px;
+      
+	color: hotpink;
+}
+button
+{
+	font-size: 20px;
+	font-family: monospace;
+	padding: 10px;
+	margin-left:  10px;
+	color: white;
+	background-color:green;
+}
+
+table
+{
+	margin-left: 40%;
+	margin-top: 10em;
+	padding: 5px;
+}
